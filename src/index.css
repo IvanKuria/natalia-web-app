@@ -1,0 +1,101 @@
+:root{
+  --global-font-family: "Georgia";
+  --global-font-color: black;
+}
+
+body{
+  background-color: whitesmoke;
+}
+
+.component-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+span{
+  font-family: var(--global-font-family);
+  color: var(--global-font-color);
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+
+.button-1 {
+  background-color: green;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #51a87a;
+}
+
+.button-2 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-2:hover,
+.button-2:focus {
+  background-color: #F082AC;
+}
+
+.button-1, .button-2 {
+  font-size: 18px; /* Increase font size */
+  height: 60px; /* Increase button height */
+  padding: 15px 24px; /* Increase padding for a larger button */
+  border-radius: 12px; /* Slightly rounder edges for a smoother look */
+}

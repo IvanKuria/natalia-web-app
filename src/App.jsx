@@ -1,13 +1,13 @@
 import { useState } from "react";
 
 function App() {
-  const [firstGif, setFirstGif] = useState("public/assets/Cat Pop Sticker.gif");
+  const [firstGif, setFirstGif] = useState("/assets/Cat Pop Sticker.gif");
   const [defaultText, setDefaultText] = useState("Are you free this Sunday?")
 
   const catGifArray = [
-    "public/assets/Happy Video Game Sticker.gif",
-    "public/assets/Cat Dancing Sticker.gif",
-    "public/assets/Cat Dancing Sticker.gif",
+    "/assets/Happy Video Game Sticker.gif",
+    "/assets/Cat Dancing Sticker.gif",
+    "/assets/Cat Dancing Sticker.gif",
   ]
 
   function handleYesClick() {
